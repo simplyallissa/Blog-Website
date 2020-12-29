@@ -1,0 +1,67 @@
+﻿body {
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+}
+
+.text-center {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.publicationpage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 800px;
+}
+
+.storeimage {
+    width: 100%;
+    height: auto;
+    max-width:200px;
+    margin:auto;
+}
+
+.profilepic {
+    margin-top: 5px;
+    max-width: 200px;
+    width: 60%;
+}
+
+.gr_grid_container {
+    /* customize grid container div here. eg: width: 500px; */
+}
+
+.gr_grid_book_container {
+    /* customize book cover container div here */
+    float: left;
+    width: 39px;
+    height: 60px;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+#respond {
+    margin-top: 40px;
+}
+
+    #respond input[type='text'],
+    #respond input[type='email'],
+    #respond textarea {
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+        line-height: 1.4em;
+    }
